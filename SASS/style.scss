@@ -5,20 +5,19 @@ header {
   text-align: center;
 }
 h1 {
+  padding: {
+    top: $p-top;
+    bottom: $p-bottom;
+  }
   color: $main-color;
   font: {
-    size: larger;
+    style: italic;
   }
 }
-
 body {
   background-color: $colore-sfondo;
 }
-.contenitore {
-  margin-top: 20%;
-  margin-bottom: 20%;
 
-  img {
-    width: 100%;
-  }
+img {
+  width: 100%;
 }

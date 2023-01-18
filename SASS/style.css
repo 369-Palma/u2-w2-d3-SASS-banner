@@ -5,31 +5,42 @@ body {
   padding: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
+.bottoni {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .bottoni button {
   color: rgb(9, 53, 9);
   background-color: beige;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  border-radius: 10px;
+  border-radius: 20px;
+  height: 40px;
+  font-weight: 600;
 }
 
-/* .bottoni button {
-  color: rgb(9, 53, 9);
-  background-color: beige;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Verdana, sans-serif;
-} */
+header {
+  text-align: center;
+}
+
 h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: beige;
-  font-size: larger;
+  font-style: italic;
 }
 
 body {
   background-color: rgb(9, 53, 9);
 }
 
-.contenitore {
-  width: 100%;
-}
-.contenitore img {
+img {
   width: 100%;
 }/*# sourceMappingURL=style.css.map */

@@ -2,20 +2,17 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  padding-top: 1em;
-  padding-bottom: 1em;
   align-items: center;
+  padding: {
+    top: $p-top;
+    bottom: $p-bottom;
+  }
   button {
     color: $colore-sfondo;
     background-color: $main-color;
     font-family: $family;
     border-radius: 20px;
-    height: 30px;
+    height: 40px;
+    font-weight: 600;
   }
 }
-/* .bottoni button {
-  color: rgb(9, 53, 9);
-  background-color: beige;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Verdana, sans-serif;
-} */
