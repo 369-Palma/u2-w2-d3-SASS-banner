@@ -25,6 +25,9 @@ h1 {
   height: 40px;
   font-weight: 600;
 }
+.bottoni button:hover {
+  transform: scale(2);
+}
 
 header {
   text-align: center;
@@ -35,6 +38,11 @@ h1 {
   padding-bottom: 20px;
   color: beige;
   font-style: italic;
+}
+h1:hover {
+  color: greenyellow;
+  background-color: rgb(9, 53, 9);
+  color: beige;
 }
 
 body {
